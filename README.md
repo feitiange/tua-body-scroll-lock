@@ -47,7 +47,7 @@ In some scenarios, when scrolling is prohibited, some elements still need to scr
 ```js
 import { lock, unlock } from 'tua-body-scroll-lock'
 
-const targetElement = document.querySelector("#someElementId")
+const targetElement = document.querySelector('#someElementId')
 
 lock(targetElement)
 unlock(targetElement)

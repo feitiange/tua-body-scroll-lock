@@ -46,7 +46,7 @@ unlock()
 ```js
 import { lock, unlock } from 'tua-body-scroll-lock'
 
-const targetElement = document.querySelector("#someElementId")
+const targetElement = document.querySelector('#someElementId')
 
 lock(targetElement)
 unlock(targetElement)
